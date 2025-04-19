@@ -5,7 +5,8 @@ The Personal Expense Management System is a simple PHP-based web application des
 ![Dashboard Screenshot](https://github.com/AlecsDevs/Personal-Expense-Management-System-Web/blob/63ad7c38a2af5d16fe72b3a52a30a1cbf381c21e/Personal%20Expense%20Management%20System.png)
 
 🎯 Features
-💸 Add new expenses with amount, category, title, and date
+
+💸 Add new expenses with amount, category, title, and date,description
 
 📊 View a list of all expenses
 
