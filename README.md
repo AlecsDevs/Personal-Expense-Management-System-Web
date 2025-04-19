@@ -17,6 +17,7 @@ The Personal Expense Management System is a simple PHP-based web application des
 💵 View total expenses
 
 🧱 Technologies Used
+
 Frontend: HTML, CSS (optional for styling)
 
 Backend: PHP
