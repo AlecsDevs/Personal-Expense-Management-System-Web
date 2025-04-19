@@ -1,0 +1,29 @@
+CREATE expenses_tracker;
+USE expenses_tracker;
+CREATE TABLE reports (
+    report_id INT AUTO_INCREMENT PRIMARY KEY,
+    expenses_id INT,
+    report_data DATE NOT NULL,
+    total_amount DECIMAL(10, 2) NOT NULL,  -- For storing the total amount of expenses
+    user_id INT NOT NULL,  -- For storing the user ID associated with the report
+    
+    FOREIGN KEY (expenses_id) REFERENCES expenses(expenses_id),
+    FOREIGN KEY (user_id) REFERENCES users(user_id)  -- Assuming you have a 'users' table with user_id
+);
+
+CREATE TABLE expenses (
+    expenses_id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    category Varchar(100)
+    amount DECIMAL(10, 2) NOT NULL,
+    date DATE NOT NULL,
+    description TEXT,
+    FOREIGN KEY (user_id) REFERENCES users(user_id)
+);
+CREATE TABLES users(
+	user_id INT (11),
+	username VARCHAR(50),
+	email VARCHAR(100),
+	password VARCHAR(255),
+	create_at_acc timestamp
+);
