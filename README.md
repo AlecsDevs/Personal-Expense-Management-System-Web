@@ -18,7 +18,7 @@ The Personal Expense Management System is a simple PHP-based web application des
 
 🧱 Technologies Used
 
-Frontend: HTML, CSS (optional for styling)
+Frontend: Bootsrap
 
 Backend: PHP
 
