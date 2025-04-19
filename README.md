@@ -1,4 +1,4 @@
-📘 Personal Expense Management System
+# 📘 Personal Expense Management System
 
 The Personal Expense Management System is a simple PHP-based web application designed to help users track their daily expenses. It allows users to record, categorize, and review their spending habits efficiently.
 
